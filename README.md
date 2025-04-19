@@ -55,7 +55,8 @@
           image: e.target.result
         };
 
-        fetch("YOUR_GOOGLE_APPS_SCRIPT_WEB_APP_URL", {
+        fetch("https://script.google.com/macros/s/AKfycbx_-72gG3rAFfMU5y_l2BWDkZ7XdMNlwBrS_wbAlcvN251Y4tkpPPxMUSDNCQ4CzMJ8/exec
+", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(payload)
